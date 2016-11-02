@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/dig-eg-gaz/resources/master/egSchema.rnc" type="application/relax-ng-compact-syntax"
+<?xml-model href="https://raw.githubusercontent.com/dig-eg-gaz/resources/master/out/egSchema.rnc" type="application/relax-ng-compact-syntax"
 ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -870,7 +870,6 @@
                         <p>Sailings every 10 days from Manchester and Liverpool and fortnightly from
                             Antwerp and London to Alexandria and Syrian Coast. The dates are
                             approximate</p>
-
                         <table rows="4" cols="8">
                             <row>
                                 <cell>OCEAN PRINCE</cell>
@@ -1090,8 +1089,75 @@
                         <p>Messrs. THOS. COOK &amp; SON (Egypt) LTD., and CARL STANGENS REISEBUREAN
                             are anthorised to sell tickets in CAIRO and ALEXANDRIA, 31-8-905</p>
                     </div>
-                    <div type="item">
-                        <head>Austrian Lloyd's Steam Navigation</head>
+                    <div type="item" scope="advertisement">
+                        <head>Austrian Lloyd’s Steam Navigation</head>
+                        <p>Alexandria-Brindisi-Venice-Trieste.</p>
+                        <p>Weekly Express Mail Service. Steamers leave Alexandria every Saturday at
+                            4 p.m. arrive at Brindisi, Tuesday a.m. in time for express to Paris,
+                            London, Naples, Rome. Arrival Trieste Wednesday noon connecting with
+                            Vienna Express (Trieste-Ostende through carriage) and expresses to Italy
+                            and Germany.</p>
+                        <table rows="3" cols="8">
+                            <row>
+                                <cell>July 8</cell>
+                                <cell>4 p.m.</cell>
+                                <cell>S. S. "Semiramis"</cell>
+                                <cell>Capt. Martinolich</cell>
+                                <cell>July 29</cell>
+                                <cell>4 p.m.</cell>
+                                <cell>S. S. "Imperator"</cell>
+                                <cell>Capt. Mosca</cell>
+                            </row>
+                            <row>
+                                <cell>July 15</cell>
+                                <cell>4 p.m.</cell>
+                                <cell>S. S. "Bohemia"</cell>
+                                <cell>Capt. Dabcevich</cell>
+                                <cell>August 5</cell>
+                                <cell>4 p.m.</cell>
+                                <cell>S.S. "Imperatrix"</cell>
+                                <cell>Capt. Ghezzo</cell>
+                            </row>
+                            <row>
+                                <cell>July 22</cell>
+                                <cell>4 p.m.</cell>
+                                <cell>S. S. "Cleopatra"</cell>
+                                <cell>Capt. Ivellich</cell>
+                                <cell/>
+                                <cell/>
+                                <cell/>
+                                <cell/>
+                            </row>
+                        </table>
+                        <p>Fortnightly Service: Alexandria-Brindisi-Venice-Trieste </p>
+                        <table rows="1" cols="8">
+                            <row>
+                                <cell>June 21</cell>
+                                <cell>4 p.m.</cell>
+                                <cell>S. S. "Thalia"</cell>
+                                <cell>Capt. Ivaneich</cell>
+                                <cell>July 5</cell>
+                                <cell>4 p.m.</cell>
+                                <cell>S. S. "Maria Teresa"</cell>
+                                <cell>Capt. Knezevich</cell>
+                            </row>
+                        </table>
+                        <p>(Departures from Suez) To Aden, Bombay, Colombo, Penang, Singapore,
+                            Hong-Kong, Shanghai, Yokohama, Kobé about July 5 and August 4. To Aden,
+                            Karachi, and Bombay accelerated service about August 18. To Aden,
+                            Karachi, Bombay, Colombo, Madras, Rangoon, and Calcutta about July
+                            20.</p>
+                        <p>East African Line.</p>
+                        <p>To Aden, Mombassa, Zanzibar, Beira, Delagoa Bay, Durban, about July 4 and
+                            August 3.</p>
+                        <p>Syrian-Cyprus-Caramanian Line.</p>
+                        <p>Steamers leaves Alexandria on or about July 3, 17 and 31.</p>
+                        <p>For information apply to the Agents, Alexandria, Port Said and Suez,
+                            Thos. Cook &amp; Son, Ld., Leon Heller, Cairo Agent, 4, Sharia Maghraby,
+                            (Telephone 192), Cairo; F. Tedeschi, Helouan.</p>
+                        <p>Special passage rates granted to Egyptian Government officials, members
+                            of the Army of Occupation and their families. </p>
+                        <p>31-12-905</p>
                     </div>
                     <div type="item" scope="advertisement">
                         <head>THE PAPAYANNI LINE.</head>
@@ -1241,12 +1307,25 @@
                             parcel Express Service.</p>
                         <p>Goods delivered against cash for account of shippers. 1-6-906</p>
                     </div>
-                    <div type="item">
-                        <head>Sudan Development &amp; Exploration Company, Limited</head>
+                    <div type="item" scope="advertisement">
+                        <head>SUDAN DEVELOPMENT &amp; EXPLORATION COMPANY, LIMITED</head>
+                        <p>KHARTOUM: CAIRO Office, Sharia Kasr-el-Nil.</p>
+                        <p>TRANSPORT DEPARTMENT. Six days White Nile Tourist Trip dep. Khartoum
+                            Tuesdays. Steamer plans may be seen and passages booked at all Cairo
+                            Tourist Agents. - Special Steamers for private charter. - Trips arranged
+                            and transport of goods undertaken to all places on White and Blue Niles
+                            within navigation limits.</p>
+                        <p>ENGINEERING DEPARTMENT. Shipyard for construction of sternwheel steamers,
+                            barges, stream, motor launches, etc. Contractors for supply and erection
+                            of all classes of machinery, buildings, irrigation pumps, etc.</p>
+                        <p>SOLE AGENTS FOR Dudbridges Oil Engines from 1 to 25 B.H.P. as supplied to
+                            Sudan Government. Seamless xxxxxxxxxxxxxxxxxxxxx</p>
                     </div>
                 </div>
             </div>
             <div type="page" n="2">
+                <cols n="3"/>
+                <cb n="1"/>
                 <div type="section" scope="advertisement">
                     <div type="item" scope="advertisement">
                         <head>Royal Insurance Coy</head>
@@ -1262,13 +1341,13 @@
                     <div type="item" scope="advertisement">
                         <head>N. SPATHIS</head>
                         <p>THE BRITISH AERATED &amp; MINERAL WATER MANUFACTORY. </p>
-                        <p>CAIRO Exbekieh ALEXANDRIA Rue Avernoff</p>
+                        <p>CAIRO Ezbekieh ALEXANDRIA Rue Avernoff</p>
                         <p>Soda Water. Lemonade, Ginger Ale, Ginger Beer. Tonic Water </p>
                         <p>Pomegranade, Orangeaade, Pineapple, Champagne, Cider, etc., etc. </p>
-                        <p> Water guaranteed by Chamberlain’s Filter (Pasteur’s System).</p>
+                        <p>Water guaranteed by Chamberlain’s Filter (Pasteur’s System).</p>
                         <p>Inventor of WHISKY &amp; SODA and BRANDY &amp; SODA, bottled ready for
                             use.</p>
-                        <p> Sole Agents in Egypt and Soudan for </p>
+                        <p>Sole Agents in Egypt and Soudan for </p>
                         <p> J. Calvet &amp; Co. Bordeaux. Wine &amp; Cognacs.</p>
                         <p>Louis Roederer. Rheims. Champagnes.</p>
                         <p>August Engel. Wiesbaden. Rhine and Moselle Wines.</p>
@@ -1287,8 +1366,10 @@
                         <p>Great assortment of Wines, Spirits, Liqueurs, of the finest Brands,
                             etc</p>
                     </div>
+                    <cols n="6"/>
+                    <cb n="1"/>
                     <div type="item" scope="advertisement">
-                        <p>D C L Scotch Whiskey</p>
+                        <head>D C L Scotch Whiskey</head>
                         <p>Sole Agents for Egypt &amp; Sudan</p>
                         <p>G. G Drossos &amp; Co.</p>
                         <p>Late Prazzica &amp; Drossos.</p>
@@ -1296,7 +1377,7 @@
                         <p>1080 31-5-905</p>
                     </div>
                     <div type="item" scope="advertisement">
-                        <p>CHAMPAGNE GEORGE GOULET.</p>
+                        <head>CHAMPAGNE GEORGE GOULET.</head>
                         <p>BY SPECIAL APPOINTMENT TO HIS MAJESTY THE KING.</p>
                         <p>REIMS.</p>
                         <p>SOLE AGENT IN EGYPT AND SUDAN,</p>
@@ -1306,7 +1387,7 @@
                         <p>24528-15-3-905 </p>
                     </div>
                     <div type="item" scope="advertisement">
-                        <p> CIGARES de la HAVANE</p>
+                        <head>CIGARES de la HAVANE</head>
                         <p>de provenance directe et de toutes les meilleures marques</p>
                         <p>Nicolas G Sabbag</p>
                         <p>IMPORTATEUR GENERAL</p>
@@ -1318,7 +1399,7 @@
                         <p> 246081-26-904</p>
                     </div>
                     <div type="item" scope="advertisement">
-                        <p>CARLTON HOTEL</p>
+                        <head>CARLTON HOTEL</head>
                         <p>Bulkeley, Ramleh.</p>
                         <p>Ten miniutes from Alexandria. First-Class in every respect Very moderate
                             charges. Bulkeley is the fashionable English quarter. Visitors fron
@@ -1326,7 +1407,7 @@
                         <p>xxxxx-xx-x-905</p>
                         <p>G. AQUILINA, Proprieter.</p>
                     </div>
-                    <cb/>
+                    <cb n="2"/>
                     <div type="item" scope="advertisement">
                         <head>THE ANGLO-EGYPTIAN BANK, LIMITED .</head>
                         <p>LONDON, PARIS ALEXANDRIA, CAIRO MALTA, GIBRALTAR, TANTAH, AND PORT SAID. </p>
@@ -1360,7 +1441,7 @@
                             transactions of customers. 18-9-905 </p>
                     </div>
                     <div type="item" scope="advertisement">
-                        <p>BOEHME &amp; ANDERER.</p>
+                        <head>BOEHME &amp; ANDERER.</head>
                         <p>NEXT DOOR TO TURF CLUB, CAIRO. </p>
                         <p>GREAT STOCK OF ACCOUNT BOOKS.</p>
                         <p>Speciality : Account Books made to order. </p>
@@ -1397,7 +1478,8 @@
                         <p> J. Margosches</p>
                         <p>Cairo Bulac Road </p>
                     </div>
-                    <cb/>
+                    <cols n="3"/>
+                    <cb n="2"/>
                     <div type="item" scope="advertisement">
                         <p>Our Winter Season’s Stocks</p>
                         <p>COMPRISING AN Exquisite and Extensive Selection of Solid Silver &amp;
@@ -1426,6 +1508,8 @@
                         <p>HOTEL-CASINO SAN STEFANO IS NOW OPEN</p>
                         <p>26045-80-9-5</p>
                     </div>
+                    <cols n="6"/>
+                    <cb n="3"/>
                     <div type="item" scope="advertisement">
                         <p>A perfect food is Bovril—it nourishes, stimulates and reinvigorates.
                             Bovril is of great value for all to whom strength and endurance are a
@@ -1472,7 +1556,7 @@
                         <p>x.10.904</p>
                     </div>
                 </div>
-                <cb/>
+                <cb n="4"/>
                 <div type="section" scope="calendar">
                     <head>Calendar of Coming Events</head>
                     <p>ALEXANDRIA.</p>
@@ -1524,7 +1608,7 @@
                         7d. for a copy to The Manager, “African Commerce,” Tower Chambers, Moorgate
                         Street, London. E.C. Annual Subscription 7/6 post free.</p>
                 </div>
-                <cb/>
+                <cb n="5"/>
                 <div type="item" scope="advertisement">
                     <p>Sunlight A great economiser and saver of time, health, and strength. Laundry
                         worries went out of woman's life when Sunlight Soap came into it It is the
@@ -1774,8 +1858,8 @@
                         Asia. </p>
                     <p>During the past week or two the representatives of different peoples have
                         been competing against one another in many ways. The champions of Great
-                        Britain have been waging stubborn warfare with the best players <cb/> of
-                        Australia on the tented field, in the finest of all games that man has
+                        Britain have been waging stubborn warfare with the best players <cb n="6"/>
+                        of Australia on the tented field, in the finest of all games that man has
                         devised. It was a Homeric match, and if the brilliant play of the home side
                         did not give them the victory, they must feel, as Britons, proud of the bull
                         dog tenacity which enabled the Australians to stave off defeat. England,
@@ -4822,6 +4906,8 @@
                 </div>
             </div>
             <div type="page" n="6">
+                <cols n="6"/>
+                <cb n="1"/>
                 <div type="article">
                     <head>Export Manifests</head>
                     <p>Pour MARSEILLE, par le bateau français “Equatear,” parti le 7 juillet :</p>
@@ -5122,280 +5208,327 @@
                         </table>
                     </div>
                 </div>
-                <div type="article">
-                    <head>REUTER'S TELEGRAMS</head>
-                    <head type="sub">CLOSING REPORTS</head>
-                    <div type="item">
-
-                        <table cols="2">
-                            <row role="label">
-                                <cell>Liverpool, July 12, 12.55 p.m.</cell>
-                            </row>
-                            <row>
-                                <cell>Sales of the day</cell>
-                                <cell>bales 5,000</cell>
-                            </row>
-                            <row>
-                                <cell>of which Egyptian</cell>
-                                <cell>" 500</cell>
-                            </row>
-                            <row>
-                                <cell>American (new crop) Maize Spot per cental</cell>
-                                <cell>5/2</cell>
-                            </row>
-                            <row>
-                                <cell>Amer. futures (August-Sept.)</cell>
-                                <cell>5.85</cell>
-                            </row>
-                            <row>
-                                <cell> " " (Dec.-Jan.)</cell>
-                                <cell>5.86</cell>
-                            </row>
-                            <row>
-                                <cell>American Middling</cell>
-                                <cell>5.99</cell>
-                            </row>
-                            <row>
-                                <cell>Egypt. fully good fair, delivery (July)</cell>
-                                <cell>7 47/64</cell>
-                            </row>
-                            <row>
-                                <cell>" " " " " (August)</cell>
-                                <cell>7 47/64</cell>
-                            </row>
-                            <row>
-                                <cell>" " " " " (Oct.) </cell>
-                                <cell>7 47/64</cell>
-                            </row>
-                            <row>
-                                <cell>" " " " " (Nov.)</cell>
-                                <cell>7 43 64</cell>
-                            </row>
-                            <row>
-                                <cell>Egypt. Brown fair per lb. d.</cell>
-                                <cell>6 13/16</cell>
-                            </row>
-                            <row>
-                                <cell> " " good fair</cell>
-                                <cell>7 9/16</cell>
-                            </row>
-                            <row>
-                                <cell> " " good</cell>
-                                <cell>8 7/16</cell>
-                            </row>
-                            <row>
-                                <cell> " fully good fair</cell>
-                                <cell>7 14/16</cell>
-                            </row>
-                            <row>
-                                <cell>Egyptian Saidi Beans new (per 480 lbs.)</cell>
-                                <cell>30/3</cell>
-                            </row>
-
-
-                            <row role="label">
-                                <cell>New-York, July 12</cell>
-                            </row>
-
-                            <row>
-                                <cell>Spot Cotton... </cell>
-                                <cell>11.10</cell>
-                            </row>
-                            <row>
-                                <cell>American Futures (August)</cell>
-                                <cell>10.78</cell>
-                            </row>
-                            <row>
-                                <cell> " " (September)</cell>
-                                <cell>10.85</cell>
-                            </row>
-                            <row>
-                                <cell> " " (December)</cell>
-                                <cell>11.—</cell>
-                            </row>
-                            <row>
-                                <cell> " " (January)</cell>
-                                <cell>11.05</cell>
-                            </row>
-                            <row>
-                                <cell>Cable transfers</cell>
-                                <cell>dol. 4.87</cell>
-                            </row>
-                            <row>
-                                <cell>Cotton day’s receipts at all U.-S. Ports</cell>
-                                <cell>bales 8,000</cell>
-                            </row>
-
-
-                            <row role="label">
-                                <cell>Liverpool, July 12.</cell>
-                            </row>
-
-                            <row>
-                                <cell>American futures (August-September)</cell>
-                                <cell>5 94</cell>
-                            </row>
-                            <row>
-                                <cell>Egypt fully good fair, delivery(July)</cell>
-                                <cell>7 44/64</cell>
-                            </row>
-                            <row>
-                                <cell>" " " " " (Aug.)</cell>
-                                <cell>7 45/64</cell>
-                            </row>
-                            <row>
-                                <cell>" " " " " (Oct.)</cell>
-                                <cell>7 46/64</cell>
-                            </row>
-                            <row>
-                                <cell>" " " " " (Nov.)</cell>
-                                <cell>7 41/64</cell>
-                            </row>
-
-                            <row role="label">
-                                <cell>London, July 12</cell>
-                            </row>
-
-                            <row>
-                                <cell>Private discount (3 month bills)</cell>
-                                <cell>1 7/8 %</cell>
-                            </row>
-                            <row>
-                                <cell>Bar Silver (per oz d.)</cell>
-                                <cell>27 5/16</cell>
-                            </row>
-                            <row>
-                                <cell>Consols (August)</cell>
-                                <cell>90 ¼</cell>
-                            </row>
-                            <row>
-                                <cell>Rio Tinto</cell>
-                                <cell>63 ¼</cell>
-                            </row>
-                            <row>
-                                <cell>Rand Mines New</cell>
-                                <cell> 9 ¼</cell>
-                            </row>
-                            <row>
-                                <cell> Egyptian Unified</cell>
-                                <cell>105 5/8</cell>
-                            </row>
-                            <row>
-                                <cell> " Railway</cell>
-                                <cell>102 —</cell>
-                            </row>
-                            <row>
-                                <cell> " Domain</cell>
-                                <cell> 104 —</cell>
-                            </row>
-                            <row>
-                                <cell>Ottoman Defence</cell>
-                                <cell>103 ½</cell>
-                            </row>
-                            <row>
-                                <cell>Turkish Unified</cell>
-                                <cell>87 7/8</cell>
-                            </row>
-                            <row>
-                                <cell>Italian Rents 4%</cell>
-                                <cell>104 —</cell>
-                            </row>
-                            <row>
-                                <cell>Ottoman Bank</cell>
-                                <cell>13 ¾</cell>
-                            </row>
-                            <row>
-                                <cell>National Bank of Egypt</cell>
-                                <cell>26 3/8</cell>
-                            </row>
-                            <row>
-                                <cell>Daira Sanieh</cell>
-                                <cell>101 ½</cell>
-                            </row>
-                            <row>
-                                <cell>New Daira</cell>
-                                <cell>28 ½</cell>
-                            </row>
-                            <row>
-                                <cell>Greek Monopole</cell>
-                                <cell>52 ¼</cell>
-                            </row>
-                            <row>
-                                <cell>Greek Rent 4%</cell>
-                                <cell>41 ½</cell>
-                            </row>
-                            <row>
-                                <cell>Chartereds of S. Africa</cell>
-                                <cell>1 14/16</cell>
-                            </row>
-                            <row>
-                                <cell>Agrioultural Bank</cell>
-                                <cell>13 7/8</cell>
-                            </row>
-                            <row>
-                                <cell>New Egyptians</cell>
-                                <cell>1 3/8</cell>
-                            </row>
-                            <row>
-                                <cell>Nile Valley Gold Mine. New</cell>
-                                <cell>1 1/8</cell>
-                            </row>
-
-                            <row>
-                                <cell>The Western Oasis Corporation 1/2 premium Delta Light (Bearer
-                                    shares) </cell>
-                                <cell>12 ½ to 13 —</cell>
-                            </row>
-                            <row>
-                                <cell>Egypt, cot. seed to Hull (July)</cell>
-                                <cell>5 13/16 nominal</cell>
-                            </row>
-                            <row>
-                                <cell>German Beet Sugar (July) </cell>
-                                <cell>9/11</cell>
-                            </row>
-                        </table>
-                    </div>
-
-                    <div type="item">
-                        <dateline>Paris, July 12</dateline>
-                        <table rows="8" cols="2">
-                            <row>
-                                <cell>Lots Turcs</cell>
-                                <cell>132 —</cell>
-                            </row>
-                            <row>
-                                <cell>Crédit Lyonnais</cell>
-                                <cell>1092 —</cell>
-                            </row>
-                            <row>
-                                <cell>Ottoman Bank</cell>
-                                <cell>594 —</cell>
-                            </row>
-                            <row>
-                                <cell>Cheques on London</cell>
-                                <cell>25.14 ½</cell>
-                            </row>
-                            <row>
-                                <cell>Sugar White No. 3 (July)</cell>
-                                <cell>29 5/8</cell>
-                            </row>
-                            <row>
-                                <cell>Crédit Foncier Egyptien</cell>
-                                <cell>813 —</cell>
-                            </row>
-                            <row>
-                                <cell>Banque d'Athènes</cell>
-                                <cell>124 —</cell>
-                            </row>
-                            <row>
-                                <cell>Land Bank of Egypt</cell>
-                                <cell>240 —</cell>
-                            </row>
-                        </table>
-                    </div>
-                </div>
-                <cb/>
+               <div type="article">
+                <head>REUTER'S TELEGRAMS</head>
+                <head type="sub">CLOSING REPORTS</head>
+                <table cols="4">
+                    <row role="label">
+                        <cell cols="4"><placeName>Liverpool</placeName>, <time when="1905-07-12"
+                                >July 12, 12.55 p.m.</time></cell>
+                    </row>
+                    <row>
+                        <cell>Sales of the day</cell>
+                        <cell/>
+                        <cell>bales</cell>
+                        <cell><measure>5,000</measure></cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell>of which Egyptian</cell>
+                        <cell>,,</cell>
+                        <cell><measure>500</measure></cell>
+                    </row>
+                    <row>
+                        <cell>American (new crop)</cell>
+                        <cell>Maize Spot</cell>
+                        <cell>per cental</cell>
+                        <cell><measure>5/2</measure></cell>
+                    </row>
+                    <row>
+                        <cell>Amer. futures </cell>
+                        <cell>(August-Sept.)</cell>
+                        <cell/>
+                        <cell><measure>5.85</measure></cell>
+                    </row>
+                    <row>
+                        <cell> " " </cell>
+                        <cell>(Dec.-Jan.)</cell>
+                        <cell/>
+                        <cell><measure>5.86</measure></cell>
+                    </row>
+                    <row>
+                        <cell>American</cell>
+                        <cell>Middling</cell>
+                        <cell/>
+                        <cell><measure>5.99</measure></cell>
+                    </row>
+                    <row>
+                        <cell>Egypt. fully good fair, delivery</cell>
+                        <cell>(July)</cell>
+                        <cell/>
+                        <cell><measure>7 47/64</measure></cell>
+                    </row>
+                    <row>
+                        <cell>" " " " " </cell>
+                        <cell>(August)</cell>
+                        <cell/>
+                        <cell><measure>7 47/64</measure></cell>
+                    </row>
+                    <row>
+                        <cell>" " " " " </cell>
+                        <cell>(Oct.)</cell>
+                        <cell/>
+                        <cell><measure>7 47/64</measure></cell>
+                    </row>
+                    <row>
+                        <cell>" " " " " </cell>
+                        <cell>(Nov.)</cell>
+                        <cell/>
+                        <cell><measure>7 43/64</measure></cell>
+                    </row>
+                    <row>
+                        <cell>Egypt.</cell>
+                        <cell>Brown fair </cell>
+                        <cell>per lb. d.</cell>
+                        <cell><measure>6 13/16</measure></cell>
+                    </row>
+                    <row>
+                        <cell>,,</cell>
+                        <cell>,, good fair</cell>
+                        <cell/>
+                        <cell><measure>7 9/16</measure></cell>
+                    </row>
+                    <row>
+                        <cell>,,</cell>
+                        <cell>,, good</cell>
+                        <cell/>
+                        <cell><measure>8 7/16</measure></cell>
+                    </row>
+                    <row>
+                        <cell>,,</cell>
+                        <cell>fully good fair</cell>
+                        <cell/>
+                        <cell><measure>7 14/16</measure></cell>
+                    </row>
+                    <row>
+                        <cell>Egyptian Saidi Beans</cell>
+                        <cell> new </cell>
+                        <cell>(per 480 lbs.)</cell>
+                        <cell><measure>30/3</measure></cell>
+                    </row>
+                    <row role="label">
+                        <cell cols="4"><placeName>New-York</placeName>, <date when="1904-07-12">July
+                                12</date></cell>
+                    </row>
+                    <row>
+                        <cell>Spot Cotton... </cell>
+                        <cell/>
+                        <cell/>
+                        <cell><measure>11.10</measure></cell>
+                    </row>
+                    <row>
+                        <cell>American Futures </cell>
+                        <cell>(August)</cell>
+                        <cell/>
+                        <cell><measure>10.78</measure></cell>
+                    </row>
+                    <row>
+                        <cell> " " </cell>
+                        <cell>(September)</cell>
+                        <cell/>
+                        <cell><measure>10.85</measure></cell>
+                    </row>
+                    <row>
+                        <cell> " " </cell>
+                        <cell>(December)</cell>
+                        <cell/>
+                        <cell><measure>11.00</measure></cell>
+                    </row>
+                    <row>
+                        <cell> " " </cell>
+                        <cell>(January)</cell>
+                        <cell/>
+                        <cell><measure>11.05</measure></cell>
+                    </row>
+                    <row>
+                        <cell>Cable transfers</cell>
+                        <cell/>
+                        <cell>dol. </cell>
+                        <cell><measure>4.87</measure></cell>
+                    </row>
+                    <row>
+                        <cell>Cotton day’s receipts at all U.-S. Ports</cell>
+                        <cell/>
+                        <cell>bales </cell>
+                        <cell><measure>8,000</measure></cell>
+                    </row>
+                    <row role="label">
+                        <cell cols="4"><placeName>Liverpool</placeName>, <date when="1905-07-12"
+                                >July 12</date>.</cell>
+                    </row>
+                    <row>
+                        <cell>American futures </cell>
+                        <cell>(August-September)</cell>
+                        <cell/>
+                        <cell><measure>5.94</measure></cell>
+                    </row>
+                    <row>
+                        <cell>Egypt fully good fair, </cell>
+                        <cell>delivery (July)</cell>
+                        <cell/>
+                        <cell><measure>7 44/64</measure></cell>
+                    </row>
+                    <row>
+                        <cell>,, ,, ,, ,,</cell>
+                        <cell>,, (Aug.)</cell>
+                        <cell/>
+                        <cell><measure>7 45/64</measure></cell>
+                    </row>
+                    <row>
+                        <cell>,, ,, ,, ,,</cell>
+                        <cell>,, (Oct.)</cell>
+                        <cell/>
+                        <cell><measure>7 46/64</measure></cell>
+                    </row>
+                    <row>
+                        <cell>,, ,, ,, ,,</cell>
+                        <cell>,, (Nov.)</cell>
+                        <cell/>
+                        <cell><measure>7 41/64</measure></cell>
+                    </row>
+                    <row role="label">
+                        <cell cols="4"><placeName>London</placeName>, <date when="1905-07-12">July
+                                12</date></cell>
+                    </row>
+                    <row>
+                        <cell cols="3">Private discount (3 month bills)</cell>
+                        <cell><measure>1 7/8 %</measure></cell>
+                    </row>
+                    <row>
+                        <cell cols="3">Bar Silver (per oz d.)</cell>
+                        <cell><measure>27 5/16</measure></cell>
+                    </row>
+                    <row>
+                        <cell cols="3">Consols (August)</cell>
+                        <cell><measure>90 ¼</measure></cell>
+                    </row>
+                    <row>
+                        <cell cols="3">Rio Tinto</cell>
+                        <cell><measure>63 1/4</measure></cell>
+                    </row>
+                    <row>
+                        <cell cols="3">Rand Mines New</cell>
+                        <cell><measure>9 1/4</measure></cell>
+                    </row>
+                    <row>
+                        <cell cols="3"> Egyptian Unified</cell>
+                        <cell><measure>105 5/8</measure></cell>
+                    </row>
+                    <row>
+                        <cell cols="3"> " Railway</cell>
+                        <cell><measure>102 —</measure></cell>
+                    </row>
+                    <row>
+                        <cell cols="3"> " Domain</cell>
+                        <cell><measure> 104 —</measure></cell>
+                    </row>
+                    <row>
+                        <cell cols="3">Ottoman Defence</cell>
+                        <cell><measure>103 ½</measure></cell>
+                    </row>
+                    <row>
+                        <cell cols="3">Turkish Unified</cell>
+                        <cell><measure>87 7/8</measure></cell>
+                    </row>
+                    <row>
+                        <cell cols="3">Italian Rents 4%</cell>
+                        <cell><measure>104 —</measure></cell>
+                    </row>
+                    <row>
+                        <cell cols="3">Ottoman Bank</cell>
+                        <cell><measure>13 ¾</measure></cell>
+                    </row>
+                    <row>
+                        <cell cols="3">National Bank of Egypt</cell>
+                        <cell><measure>26 3/8</measure></cell>
+                    </row>
+                    <row>
+                        <cell cols="3">Daira Sanieh</cell>
+                        <cell><measure>101 1/2</measure></cell>
+                    </row>
+                    <row>
+                        <cell cols="3">New Daira</cell>
+                        <cell><measure>28 ¼</measure></cell>
+                    </row>
+                    <row>
+                        <cell cols="3">Greek Monopole</cell>
+                        <cell><measure>52 ¼</measure></cell>
+                    </row>
+                    <row>
+                        <cell cols="3">Greek Rent 4%</cell>
+                        <cell><measure>41 1/2</measure></cell>
+                    </row>
+                    <row>
+                        <cell cols="3">Chartereds of S. Africa</cell>
+                        <cell><measure>1 14/16</measure></cell>
+                    </row>
+                    <row>
+                        <cell cols="3">Agricultural Bank</cell>
+                        <cell><measure>13 7/8</measure></cell>
+                    </row>
+                    <row>
+                        <cell cols="3">New Egyptians</cell>
+                        <cell><measure>1 3/8</measure></cell>
+                    </row>
+                    <row>
+                        <cell cols="3">Nile Valley Gold Mine. New</cell>
+                        <cell><measure>1 1/8</measure></cell>
+                    </row>
+                    <row>
+                        <cell cols="3">The Western Oasis Corporation</cell>
+                        <cell><measure>1/2</measure> premium </cell>
+                    </row>
+                    <row>
+                        <cell cols="3">Delta Light (Bearer shares) </cell>
+                        <cell><measure>12 ½</measure> to <measure>13 —</measure></cell>
+                    </row>
+                    <row>
+                        <cell cols="3">Egypt, cot. seed to Hull (July)</cell>
+                        <cell><measure>5 13/16</measure> sellers</cell>
+                    </row>
+                    <row>
+                        <cell cols="3">German Beet Sugar (July) </cell>
+                        <cell><measure>9/11</measure></cell>
+                    </row>
+                    <row role="label">
+                        <cell cols="4"><placeName>Paris</placeName>, <date when="1905-07-12">July
+                                12</date>.</cell>
+                    </row>
+                    <row>
+                        <cell cols="3">Lots Turcs</cell>
+                        <cell><measure>132 —</measure></cell>
+                    </row>
+                    <row>
+                        <cell cols="3">Crédit Lyonnais</cell>
+                        <cell><measure>1092 —</measure></cell>
+                    </row>
+                    <row>
+                        <cell cols="3">Ottoman Bank</cell>
+                        <cell><measure>594 —</measure></cell>
+                    </row>
+                    <row>
+                        <cell cols="3">Cheques on London</cell>
+                        <cell><measure>25.14 1/2</measure></cell>
+                    </row>
+                    <row>
+                        <cell cols="3">Sugar White No. 3 (July)</cell>
+                        <cell><measure>29 5/8 —</measure></cell>
+                    </row>
+                    <row>
+                        <cell cols="3">Crédit Foncier Egyptien</cell>
+                        <cell><measure>813 —</measure></cell>
+                    </row>
+                    <row>
+                        <cell cols="3">Banque d'Athènes</cell>
+                        <cell><measure>124 —</measure></cell>
+                    </row>
+                    <row>
+                        <cell cols="3">Land Bank of Egypt</cell>
+                        <cell><measure>240 —</measure></cell>
+                    </row>
+                </table>
+            </div>
+                <cb n="2"/>
                 <div type="article">
                     <head>LONDON STOCK EXCHANGE.</head>
                     <head type="sub">Prices on Friday, July 7, 1905.</head>
@@ -5880,7 +6013,6 @@
                         </row>
                     </table>
                 </div>
-
                 <div type="article">
                     <head>RAMLEH RAILWAY COMPANY</head>
                     <p>RECETTES</p>
@@ -6029,7 +6161,7 @@
                         </row>
                     </table>
                 </div>
-                <cb/>
+                <cb n="3"/>
                 <div type="article">
                     <head>ARRIVAGES A MINET-EL-BASSAL</head>
                     <p>du mois de juillet 1904</p>
@@ -6237,7 +6369,6 @@
                         Association"; nous la publions afin qu'on puisse la comparer avec les
                         arrivages du mois de juillet de cette année. </p>
                 </div>
-
                 <div type="article">
                     <head>DELTA LIGHT RAILWAYS, Ltd.</head>
                     <head type="sub">Traffic Returns</head>
@@ -6614,7 +6745,7 @@
                         </row>
                     </table>
                 </div>
-                <cb/>
+                <cb n="4"/>
                 <div type="article">
                     <head>AGRICULTURAL BANK OF EGYPT</head>
                     <head type="sub">New Issue of Shares for Increase of Capital.</head>
@@ -6643,7 +6774,6 @@
                     <p>Cairo, the 8th July 1905.</p>
                     <p>26218-5</p>
                 </div>
-
                 <div type="item">
                     <head>NOTICE</head>
                     <p>Is hereby given to all persons having claims against the estate of the late
@@ -6654,7 +6784,6 @@
                         consideration.</p>
                     <p>26212-6-6</p>
                 </div>
-
                 <div type="item">
                     <head>NOTICE.</head>
                     <p>NOTICE is hereby given to all persons having claims against the estate of the
@@ -6664,7 +6793,6 @@
                         1905, after which date they will not be taken into consideration. </p>
                     <p>26221-64</p>
                 </div>
-
                 <div type="item">
                     <head>Societe Anonyme des Eaux du Caire AVIS</head>
                     <p>La Société des Eaux du Caire porte à la connaissance du Public, que son
@@ -6687,7 +6815,6 @@
                     <p>Le Directeur, ASTLEY P. FRIEND.</p>
                     <p>25829-40*-29</p>
                 </div>
-
                 <div type="item">
                     <head>Municipalité d’Alexandrie AVIS</head>
                     <p>Il est porté à la connaissance des propriétaires de chiens qu’il pourront
@@ -6712,7 +6839,8 @@
                         rhumes, maux de gorge, rhumatismes, douleurs. Exiger le nom Wlinski.
                         8-1)</p>
                 </div>
-                <cb/>
+                <cols n="3"/>
+                <cb n="3"/>
                 <div type="item" scope="advertisement">
                     <p>Allen, Alderson &amp; Co. Limited.</p>
                     <p>SOLE AND EXCLUSIVE AGENTS FOR</p>
@@ -6742,7 +6870,6 @@
                     <p>Chatwood's Safes in Stock.</p>
                     <p>Agents for Green's Economisers.</p>
                 </div>
-
                 <div type="item" scope="advertisement">
                     <p>THE BEST REMEDY AGAINST DIARRHOEA, CHOLERA, COLIC, DYSENTERY, is Dr. J.
                         Collis Browne’s CHLORODYNE.</p>
@@ -6882,12 +7009,15 @@
                     <p>17-11A-905</p>
                 </div>
                 <div type="item" scope="advertisement">
-                    <p>NOUVEAU REMEDE PURGATIF IDEAL</p>
-                    <p>Contre: Constipation, Congestion, Hemerrhoides, Migraine, Obesite, etc.
-                        Conserve 0«MI Odn«tlp»tlon, Oongeatlon, HmawrrhtoldM, RifrnlBa , ^ c .u - „
-                        - .... *1 j ■ . C i » ill j ii t , i Mravcrain poor U gaAriaon rapide d«i
-                        Irritations de 'poltrlne^ do* rhu-mes, mans de gorge, rhnmatismes, donlenrs.
-                        Eg«r i« nom WLIN8I.</p>
+                    <head>NOUVEAU REMEDE PURGATIF IDEAL</head>
+                    <p>Contre: Constipation, Congestion, Hemerrhoides, Migraine<lb/> Obesite, etc.
+                        Conserve le beint frais et la taille svelte ; d'une efficacité absolue agit
+                        <lb/> sans douleurs. Il es conseillé par toutes les sommités<lb/> medicales.
+                        Le purgatif le plus économique.</p>
+                    <p>PURGEN</p>
+                    <p>Prix 1.50 pour 12 purgations. Se trouve dans toutes les pharmacies.</p>
+                    <p>Dépôt général pour l'Égypte GEO. BUSLENEG, Pharamcien, Alexandrie.
+                        25-1-05</p>
                 </div>
             </div>
         </body>
